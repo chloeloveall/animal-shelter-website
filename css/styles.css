@@ -1,4 +1,22 @@
-.column {
+h1, h2, p {
+  text-align: center;
+  color: black;
+}
+.columns {
+  float: center;
+}
+.profile {
   width: 20%;
   float: left;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+.profile img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile h2 {
+  font-style: italic;
+  color: darkslategray;
 }
