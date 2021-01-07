@@ -1,22 +1,36 @@
+body {
+  background-color: slategrey;
+}
 h1, h2, p {
   text-align: center;
   color: black;
 }
 .columns {
-  float: center;
+  display: flex;
+  justify-content: center;
 }
 .profile {
-  width: 20%;
+  width: 24%;
+  height: 700px;
   float: left;
-  margin-right: 1px;
+  background-color: lightsteelblue;
+  margin-right: 5px;
   margin-left: 1px;
+  border: 2px darkgoldenrod solid;
 }
 .profile img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  border-top: 4px darkgoldenrod solid;
+  border-bottom: 4px darkgoldenrod solid;
 }
 .profile h2 {
   font-style: italic;
-  color: darkslategray;
+}
+.profile ul {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
 }
