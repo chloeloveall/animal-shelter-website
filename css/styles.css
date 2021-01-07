@@ -12,15 +12,17 @@ ul {
   list-style: none;
 }
 .columns {
-  display: flex;
-  justify-content: center;
+  display: table;
+  width: 100%;
+  height: max-content;
+  align-content: center;
 }
 .profile {
-  width: 24%;
-  height: 500px;
+  width: 20%;
+  height: 100%;
   float: left;
   background-color: lightsteelblue;
-  margin-right: 5px;
+  margin-right: 1px;
   margin-left: 1px;
   border: 2px darkgoldenrod solid;
 }
@@ -36,7 +38,9 @@ ul {
   font-size: 25px;
 }
 .profile ul {
+  font-size: 15px;
   text-align: left;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
 }
